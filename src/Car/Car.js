@@ -1,10 +1,13 @@
+import './Car.css';
+
 function Car(props){
     return(
-        <div> 
+        <div className="Car"> 
             {props.children}
             <h3>Car name: {props.name}</h3>
             <p>Year: {props.year}</p> 
-            <button onClick={props.onChangeTitle}>Click</button>
+            <input type="text" value={props.name} onChange={props.onChangeName}/>
+            <button onClick={props.onDelete}>Delete</button>
         </div>   
     )
 }

@@ -6,7 +6,7 @@ import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <App date={new Date()} />
   </React.StrictMode>,
   document.getElementById('root')
 );

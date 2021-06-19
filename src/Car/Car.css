@@ -1,0 +1,26 @@
+.Car{
+    border: 1px solid #00000031;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0px 10px 15px #282c342c;
+  }
+  .Car>input{
+    border-color: #00000025;
+  }
+  .Car>button:link,.Car>button:visited{
+    background: none;
+  }
+  .Car>button:hover,.Car>button:active{
+    background: #ff5454;
+    color: white;
+  
+  }
+  .Car>button{
+    
+    background: none;
+    border-radius: 10px;
+    border-color: #00000031;
+    transition-property: background,color;
+    transition-duration: 0.3s;
+  }
