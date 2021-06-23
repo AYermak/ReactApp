@@ -6,7 +6,7 @@ function Car(props){
             {props.children}
             <h3>Car name: {props.name}</h3>
             <p>Year: {props.year}</p> 
-            <input type="text" value={props.name} onChange={props.onChangeName}/>
+            <input type="text" value={props.name} placeholder={"Car name"} onChange={props.onChangeName}/>
             <button onClick={props.onDelete}>Delete</button>
         </div>   
     )
