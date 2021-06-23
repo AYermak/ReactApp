@@ -30,13 +30,13 @@
     border-radius: 10px;
   }
   .Car>input:hover,.Car>input:active{
-    background: #24c1ff9c;
+    background: #24c1ffcb;
     color: white;
   }
+
   .Car>input:focus{
-    background: #00a74b;
+    background: #00a74bd2;
     color: white;
-    border-radius: 10px;
     outline: none;
     transition-duration: 0.5s;
   }
@@ -50,14 +50,14 @@
     
   }
   .Car>button:hover,.Car>button:active{
-    background: #ff5454;
+    background: rgba(255, 39, 39, 0.699);;
     color: white;
   
   }
   .Car>button{
     padding: 10px;
     margin-left: 12px;
-    background: white;
+    background: rgba(255, 255, 255, 0.500);
     border-radius: 20px;
     border-color: none;
     border-width: 0px;
