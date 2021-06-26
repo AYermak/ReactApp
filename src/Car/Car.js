@@ -14,7 +14,7 @@ function Car(props){
                 value={props.name} 
                 placeholder={"Car name"} 
                 onChange={props.onChangeName}
-                className={inputClasses.join}
+                
             />
             <button onClick={props.onDelete}>Delete</button>
             <div className={"btn-close"}><span class="material-icons-outlined">
