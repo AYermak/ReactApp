@@ -12,6 +12,7 @@
     background-color: rgba(185, 250, 255, 0.171);
     backdrop-filter: blur(10px);
     font-family: "Gill Sans", sans-serif;
+    overflow:hidden;
   }
   .Car>h3 span{
     color: #3f3f3f;
@@ -73,4 +74,15 @@
   .Car :is(button,input){
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.100);
     cursor: pointer;
+  }
+  .btn-close{
+    position: absolute;
+    background: red;
+    right: 0px;
+    top: 0px;
+    min-width: 5%;
+    min-height: 10%;
+    text-align: center;
+    color: white;
+    
   }
