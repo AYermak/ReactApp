@@ -83,7 +83,6 @@ class App extends Component {
         }}>
           {car}
         </div>
-          !!!
         {/* <Car 
         name={cars[0].name} 
         year={cars[0].year} 
