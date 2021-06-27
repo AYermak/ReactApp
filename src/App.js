@@ -65,12 +65,11 @@ class App extends Component {
         onChangeTitle={this.changeTitleHandler.bind(this, car.name)}
         onDelete={this.onDeleteHandler.bind(this)}
         onChangeName={this.changeCarName.bind(this,index)}
-        />
+      />
+      
       )
     }
      
-    
-
     return (
       <div className="App">
         <h1 style={{textAlign: 'Center'}}>{this.state.pageTitle}</h1>
